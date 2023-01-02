@@ -1,0 +1,19 @@
+tb_url: "http://127.0.0.1:8080"
+tb_secrets_db: "secrets.db"
+
+tts_default_mqtt_broker: "eu1.cloud.thethings.network"
+tts_default_mqtt_port: 8883
+tts_reconnect_interval: 5
+
+tts_applications:
+  # Default TTS MQTT broker address will be used
+  - tts_username: "TTS_MQTT_USERNAME"
+    tts_apikey: "TTS_MQTT_PASSWORD"
+    tb_provision_device_key: "PROVISION_DEVICE_KEY"
+    tb_provision_device_secret: "PROVISION_DEVICE_SECRET"
+  # Set different mqtt broker address
+  - tts_username: "TTS_MQTT_USERNAME"
+    tts_apikey: "TTS_MQTT_PASSWORD"
+    tts_mqtt_broker: "eu1.cloud.thethings.industries"
+    tb_provision_device_key: "PROVISION_DEVICE_KEY"
+    tb_provision_device_secret: "PROVISION_DEVICE_SECRET"

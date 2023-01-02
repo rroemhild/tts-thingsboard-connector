@@ -1,0 +1,4 @@
+aiohttp==3.8.3
+aiosqlite==0.18.0
+asyncio-mqtt==0.16.1
+PyYAML==6.0
