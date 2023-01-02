@@ -1,4 +1,4 @@
-# The Things Stack to ThingsBoard Community connector
+# The Things Stack to ThingsBoard Community Edition connector
 
 Publish uplinks from The Things Stack LoRaWAN Network Server to ThingsBoard Community Edition.
 
@@ -12,7 +12,7 @@ Clone this repository and install the requieremnts:
 
 ```
 # Git clone
-git clone
+git clone https://github.com/rroemhild/tts-thingsboard-connector.git
 
 # Install python requirements as user or use a python virtualenv
 pip install --user -r requirements.txt
